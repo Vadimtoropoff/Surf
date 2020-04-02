@@ -56,8 +56,8 @@
 <div class="jumbotron text-center">
   <h1 class="display-4">Partez à l'aventure</h1>
   <p class="font-weight-bold">Découvrez notre école de surf en peer-learning</p>
-  <a class="btn btn-primary btn-lg" href="#" role="button">Je m'inscris à la prochaine session</a>
-  <a class="btn btn-secondary btn-lg" href="#" role="button">Je découvre le programme</a>
+  <a class="btn btn-primary btn-sm" href="#" role="button">Je m'inscris à la prochaine session</a>
+  <a class="btn btn-secondary btn-sm" href="#" role="button">Je découvre le programme</a>
 </div>
 
 <!-- Pour faire un format 3 colonnes -->
@@ -66,7 +66,7 @@
 
   <h1 class="display-6">The Surfing Project en 3 points</h1>
   
-  <div class="row">
+  <div class="row justify-content-around" >
   
     <div class="col-sm text-center">
         <i class="fas fa-money-bill-wave-alt"></i>
@@ -80,7 +80,7 @@
              <p class="card-text text-left">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       </div>
 
-      <div class="col-sm">
+      <div class="col-sm text-center">
             <i class="fas fa-users"></i>
              <h5 class="card-title">La communauté</h5>
              <p class="card-text text-left">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -89,41 +89,37 @@
 </div>
 
 <!-- Pour faire un format 2 colonnes -->
-
-
-
+<!-- Prow justify-content-center permet de centrer tout au milieu : pensez à mettre col-6 pour que ca prenne toute la page -->
+<!-- col-md pour moyen et grand ecran.  -->
 
 
 <div class="container">
+  <div class="row justify-content-center">
 
-  <h1 class="display-6">Témoignages</h1>
-
-  <div class="row justify-content-around custom-line">
-    
-    <div class="col-sm">
-      <div class="card" style="width: 18rem;">
-       <img src="https://images.pexels.com/photos/835615/pexels-photo-835615.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" class="card-img-top" alt="Surf for ever">
-      <div class="card-body">
-        <p class="card-text">Surfing's not a sport. It's a way of life. It's no hobby.It's a way of looking at that wave and saying : "hey bud, let's party!"</p>
-        <p class="card-text"><small class="text-muted">Jeff, Avril 2019</small></p>
-      </div>
+    <div class="col-md-6">
+      <div class="card">
+    <img src="https://images.pexels.com/photos/835615/pexels-photo-835615.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" class="card-img-top" alt="Surf for ever">
+    <div class="card-body">
+      <p class="card-text">Surfing's not a sport. It's a way of life. It's no hobby.It's a way of looking at that wave and saying : "hey bud, let's party!</p>
     </div>
-  </div>
+    </div>
+    </div>
 
-    <div class="col-sm">
-      <div class="col-sm">
-      <div class="card" style="width: 18rem;">
-      <img src="https://images.pexels.com/photos/386025/pexels-photo-386025.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="card-img-top" alt="Partir en van">
-      <div class="card-body">
-        <p class="card-text">Grâce à TSP, je fais le tour du monde avec mon van et fais du Surf ! Si l'expérience était à refaire, je le referais plein de fois.</p>
-        <p class="card-text"><small class="text-muted">Jean-Michel, Octobre 2018</small></p>
-      </div>
+  
+    <div class="col-md-6">
+      <div class="card">
+    <img src="https://images.pexels.com/photos/386025/pexels-photo-386025.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="card-img-top" alt="Partir en van">
+    <div class="card-body">
+      <p class="card-text">Grâce à TSP, je fais le tour du monde avec mon van et fais du Surf ! Si l'expérience était à refaire, je le referais plein de fois !</p> 
+    </div>
+    </div>
     </div>
   </div>
 </div>
+
   
 <!-- Pricing-->
-
+<div class="container">
   <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
     <h1 class="display-6">Prix</h1>
   <div class="container">
@@ -176,6 +172,7 @@
           <button type="button" class="btn btn-lg btn-block btn-primary">S'inscrire</button>
         </div>
       </div>
+</div>
 
     </div>
   </div>
